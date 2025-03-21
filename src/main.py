@@ -1,9 +1,9 @@
-def remove_duplicet(items):
-  unique = []
-  for item in items:
-      if item not in unique :
-        unique.append(item)
-  return unique 
-      
-number =[12,2,4,7,9,78,20,2,12]
-print (remove_duplicet(number))
+def fibonacci(num):
+  fibo = [0,1]
+  i = 2
+  while i<= num:
+     next_fibo = fibo[i-1] + fibo[i-2]
+     fibo.append(next_fibo)
+     i += 1
+  return fibo
+print(fibonacci(9))
