@@ -1,9 +1,3 @@
-def fibonacci(num):
-  fibo = [0,1]
-  i = 2
-  while i<= num:
-     next_fibo = fibo[i-1] + fibo[i-2]
-     fibo.append(next_fibo)
-     i += 1
-  return fibo
-print(fibonacci(9))
+friends = [ "Batman", "Cat Man", "Fat Man", "Cockroach Man"] 
+cat_man_index = friends.index("Cat Man")
+print(cat_man_index)
